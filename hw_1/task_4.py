@@ -9,5 +9,5 @@
 # 3 2 1 -> no
 
 
-n, m, k = map(int, (input().split(" ")))
+n, m, k = map(int, input().split())
 print("yes") if not k % min(n, m) and k <= n * m else print("no")
