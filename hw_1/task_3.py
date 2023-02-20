@@ -17,4 +17,4 @@ from task_1 import sum_digit
 
 num = input()
 equal = sum_digit(int(num[0:3])) == sum_digit(int(num[3:6])) 
-print("yes") if equal else print("no")
+print("yes" if equal else "no")
