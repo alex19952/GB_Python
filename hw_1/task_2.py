@@ -12,6 +12,6 @@
 
 
 S = int(input())
-k = int(S / 3 * 2)
-x = int(k / 4)
+k = S // 3 * 2
+x = k // 4
 print(x, k, x)
